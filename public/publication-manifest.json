@@ -1,5 +1,5 @@
 {
-  "release": "0.1.8",
+  "release": "0.1.9",
   "signing_fingerprint": "7D0FC30A9F2B9957B2970E3BB6B1D6FE6A4682AF",
   "sources": [
     "sources/0.1.6/SHA256SUMS",
@@ -713,27 +713,27 @@
     },
     "apt/archive-key.json": {
       "bytes": 172,
-      "sha256": "7fc3d7f5c7558e0de19427fd0c0f133374dc1bd2043f786a7ecdf8ef26533ba0"
+      "sha256": "4ec886c9ce8d14abc4619d50dd320072f817ca859560d41536c290e4c277cb78"
     },
     "apt/dists/noble/InRelease": {
       "bytes": 722,
-      "sha256": "c988450b0d310ea771d38231e1009cb585d00b7da9570cde7a2d9232df9c5803"
+      "sha256": "d864735210b61dbbc5f93430229bd989802de9a3ffd86c7a6faedc9553316cab"
     },
     "apt/dists/noble/Release": {
       "bytes": 445,
-      "sha256": "d5485d30a81b8e1ed84f1cb3138de24ed997ff4c45f3fcd0e511e1ec6fa2393c"
+      "sha256": "a5194d451cbcd5b4a3e9512ad3b7a2c0117d7556ec8fd8b41c254b0f1116be89"
     },
     "apt/dists/noble/Release.gpg": {
       "bytes": 228,
-      "sha256": "8ebba24e2fe621511f8990a9cebcf61fd21a9de9bd34d7ddbe06a7ab42db0171"
+      "sha256": "fa46053e75aab1e25d5ad3537f6c80198d2fbafb380507f68e03ed5c7620d074"
     },
     "apt/dists/noble/main/binary-amd64/Packages": {
-      "bytes": 12786,
-      "sha256": "2c897c7f206366af8bd1faabbece4483c0f5f3c97426cb7a6abb8eb86313f91f"
+      "bytes": 17993,
+      "sha256": "d3512ddd5a5aee8ff56367022bcbc7620c2a569942441989eab380e8aa6fb296"
     },
     "apt/dists/noble/main/binary-amd64/Packages.gz": {
-      "bytes": 2652,
-      "sha256": "6794cc2d614fd6875ff652e1e2d7864fbed22d16e56b2b5b4a9cdfe484142f86"
+      "bytes": 3152,
+      "sha256": "81512634a517665e17c87c731f07b1e7faac15d443f0746de6969b12e732f020"
     },
     "apt/dists/noble/main/binary-amd64/by-hash/SHA256/2c897c7f206366af8bd1faabbece4483c0f5f3c97426cb7a6abb8eb86313f91f": {
       "bytes": 12786,
@@ -751,9 +751,17 @@
       "bytes": 2652,
       "sha256": "6794cc2d614fd6875ff652e1e2d7864fbed22d16e56b2b5b4a9cdfe484142f86"
     },
+    "apt/dists/noble/main/binary-amd64/by-hash/SHA256/81512634a517665e17c87c731f07b1e7faac15d443f0746de6969b12e732f020": {
+      "bytes": 3152,
+      "sha256": "81512634a517665e17c87c731f07b1e7faac15d443f0746de6969b12e732f020"
+    },
     "apt/dists/noble/main/binary-amd64/by-hash/SHA256/995f77c5dafcb35e6f4b9c40373ea4334484f415b586707f6b73f73de19043c6": {
       "bytes": 1672,
       "sha256": "995f77c5dafcb35e6f4b9c40373ea4334484f415b586707f6b73f73de19043c6"
+    },
+    "apt/dists/noble/main/binary-amd64/by-hash/SHA256/d3512ddd5a5aee8ff56367022bcbc7620c2a569942441989eab380e8aa6fb296": {
+      "bytes": 17993,
+      "sha256": "d3512ddd5a5aee8ff56367022bcbc7620c2a569942441989eab380e8aa6fb296"
     },
     "apt/dists/noble/main/binary-amd64/by-hash/SHA256/df3baef1f785dae5aaf1e593ac5eb2f6a25fbe25945fbbc9062d1a522e132e82": {
       "bytes": 1964,
@@ -783,6 +791,10 @@
       "bytes": 960,
       "sha256": "5d947ada8a0ce07f91e9823972343674a472331bc6b52082cffc72b768d2e39a"
     },
+    "apt/pool/main/a/abstract-desktop/abstract-desktop_0.1.9_all.deb": {
+      "bytes": 956,
+      "sha256": "0238674460b7175b3d5ff7ba0cca134d6ad7c1b5f1960ce79d9d376c680d7a8f"
+    },
     "apt/pool/main/a/abstract-shell/abstract-shell_0.1.6_amd64.deb": {
       "bytes": 6489124,
       "sha256": "aa1ef4d276acc1b372f6394074527b9ffbaf5f0411794806318d146eebd3dccc"
@@ -795,13 +807,25 @@
       "bytes": 960,
       "sha256": "79b79600d19145f936541a84d261fd9ace26a93091c4d532161f28191cc1cc61"
     },
+    "apt/pool/main/a/abstract-shell/abstract-shell_0.1.9_all.deb": {
+      "bytes": 956,
+      "sha256": "db5906e59e48005c59d17b511507a3176924af8c4aa362f973ff53a4ee459ad2"
+    },
     "apt/pool/main/m/mellipi-desktop/mellipi-desktop_0.1.8_all.deb": {
       "bytes": 2302,
       "sha256": "602e81ec33c5afde0399ac9633b3db702a27ba8b1680d7ee5d63ed4f2794cc9d"
     },
+    "apt/pool/main/m/mellipi-desktop/mellipi-desktop_0.1.9_all.deb": {
+      "bytes": 3570,
+      "sha256": "5218ce21d81ed0dafc8f62af68381bfec4bcfe4c0545c859005ec08cc0248322"
+    },
     "apt/pool/main/m/mellipi-shell/mellipi-shell_0.1.8_amd64.deb": {
       "bytes": 4475976,
       "sha256": "99d8bcb8cf4c7ad34cf4f04ad0009ba012326199f625e2305cc94344860190e6"
+    },
+    "apt/pool/main/m/mellipi-shell/mellipi-shell_0.1.9_amd64.deb": {
+      "bytes": 4527124,
+      "sha256": "b9c29cda212e19294011aaf4140d2aa3bf7f3596da568d08b7a062c5396ff096"
     },
     "assets/README.md": {
       "bytes": 627,
